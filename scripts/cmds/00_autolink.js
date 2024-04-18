@@ -118,7 +118,7 @@ module.exports = {
 			}
 
 			const shortUrl = await shortenURL(res);
-			const messageBody = `𝖠𝗎𝗍𝗈 𝖣𝗈𝗐𝗇 𝖳𝗂𝗄𝖳𝗈𝗄\n\n𝗬𝗔𝗭𝗞𝗬 𝗕𝗢𝗧 𝟭.𝟬.𝟬𝘃`;
+			const messageBody = `𝖠𝗎𝗍𝗈 𝖣𝗈𝗐𝗇 𝖳𝗂𝗄𝖳𝗈𝗄\n\nAlfred 𝟭.𝟬.𝟬𝘃`;
 
 			api.sendMessage({
 				body: messageBody,
